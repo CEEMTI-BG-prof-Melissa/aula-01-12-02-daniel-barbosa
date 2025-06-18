@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title> Aula 08 </title>
+  </head>
+  <body>
+    <h1> Cadastro Pessoal </h1>
+    <form action = "/recebe.html" method="get">
+        <p>
+            <!--este é um campo de Texto:/-->
+            <label for="text"> Nome completo: </label>
+            <input type="text">
+        </p>
+        <p>
+            <!--Este é um campo de Email:/-->
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email">
+        </p>
+        <p>
+            <!--Este é um campo de Data:/-->
+            <label for="date"> Data de nascimento: </label> 
+            <input type="date" id="date" name="date">
+        </p>
+        
+            <!--Usando CHECKBOX que podemos marca mais de uma caixinha:/-->
+            <label for="preferencia"> Preferências Tecnológicas: </label>
+            <br><br>
+           <input type="checkbox" id="preferencia" name="preferencia" value="HTML"> <label> HTML </label>
+           <br>
+           <input type="checkbox" id="preferencia" name="preferencia" value="CSS"> <label> CSS </label>
+           <br>
+           <input type="checkbox" id="preferencia" name="preferencia" value="JavaScript"> <label> JavaScript </label>
+           <br>
+           <input type="checkbox" id="preferencia" name="preferencia" value="Python"> <label> Python </label>
+            <br><br>
+            <!--Usando RADIO podemos marca so uma caixinha:/-->
+            <label for="turno"> Escolha seu turno: </label>
+            <br><br>
+           <input type="radio" id="turno" name="turno" value="MANHÃ"> <label> Manhã </label>
+           <br>
+           <input type="radio" id="turno" name="turno" value="TARDE"> <label> Tarde </label>
+           <br>
+           <input type="radio" id="turno" name="turno" value="NOITE"> <label> Noite </label>
+           
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+  </body>
+</html>
